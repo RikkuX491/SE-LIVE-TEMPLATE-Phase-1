@@ -1,5 +1,6 @@
 # Lecture # 1 - JavaScript Fundamentals
-## SWBAT
+
+## Lecture Topics
 - [ ] Define what a variable is
 - [ ] Initialize variables in JavaScript
 - [ ] Retrieve and change the value of variables
@@ -7,6 +8,7 @@
     - Using `const` for declaring variables
     - Using `let` for declaring variables
 - [ ] Use `console.log()` to inspect the values of variables and print those values to the console
+- [ ] Use the `debugger` statement to invoke a debugger in the browser
 - [ ] Explain the difference between the following data types:
     - `number`
     - `string`
