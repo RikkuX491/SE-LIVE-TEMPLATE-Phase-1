@@ -31,6 +31,9 @@
     - `!` NOT
     - `&&` AND
     - `||` OR
+- [ ] Run JavaScript (`.js`) scripts in the browser
+- [ ] Run JavaScript (`.js`) scripts using `node` in the terminal
+- [ ] Enter a `node` REPL session to quickly test simple JavaScript code
 
 
 ## Deliverables
