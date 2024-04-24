@@ -35,12 +35,36 @@
 - [ ] Run JavaScript (`.js`) scripts using `node` in the terminal
 - [ ] Enter a `node` REPL session to quickly test simple JavaScript code
 
+## Setup
+
+While inside of the directory (folder) with the `index.html` file, in the terminal, run these commands in the terminal to create a folder named `src` and a file named `index.js` inside of the `src` folder:
+
+```sh
+mkdir src
+touch src/index.js
+```
+
+In `index.html`, add the following line of code after line 7 to run the code in the `index.js` JavaScript file whenever the `index.html` file loads in the browser:
+
+```html
+<script type="text/javascript" src="./src/index.js"></script>
+```
+
+For Mac users, run this command in the terminal to open the `index.html` file on your browser to run the application:
+
+```sh
+open index.html
+```
+
+For Windows users, run this command in the terminal to open the `index.html` file on your browser to run the application:
+
+```sh
+explorer.exe index.html
+```
 
 ## Deliverables
 
-We've been asked to build a website for a new restaurant, Flatburger, that displays a menu of food served at the restaurant.
-
-Today we will review JavaScript Fundamentals that may help us accomplish some tasks related to displaying data on the website.
+Write your code in the `src/index.js` file.
 
 1. Initialize a variable named `greeting` using `const` and assign it the value of the `string` "Welcome to Flatburger!"
 2. Initialize two variables named `num1` and `num2` using `let` and assign the value of a `number` to each of the two variables.
