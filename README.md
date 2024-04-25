@@ -106,7 +106,7 @@ Write your code in the `src/index.js` file.
 9. Write an `if` statement that will check if the value of `num1` is strictly equal to `7` or `49`. If `num1` is strictly equal to `7` or `49`, use `console.log()` to print the following `string` to the console: "That's a lucky number!"
 10. Write an `else if` statement after the `if` statement that will check if the value of `num1` is between `7` and `49`. For this case, `num1` should be greater than `7` and less than `49`. If `num1` is between `7` and `49`, use `console.log()` to print the following `string` to the console: "That might be a lucky number!". The code inside the `else if` statement should run if the `if` statement's condition is not true.
 11. Write an `else` clause after the `else if` statement that will print "That's not a lucky number." to the console using `console.log()`. The code inside the `else` clause should run if the `if` statement's condition and the `else if` statement's condition are not true.
-12. Write a ternary expression that will evaluate to the `string` "Lucky Sevens!" if the value of `num1` and `num2` are both strictly equal to `7`. Otherwise, the ternary expression should evaluate to the `string` "Better luck next time".
+12. Write a ternary expression that will evaluate to the `string` "Lucky Sevens!" if the value of `num1` and `num2` are both strictly equal to `7`. Otherwise, the ternary expression should evaluate to the `string` "Better luck next time". Store the result of the ternary expression into a variable called `luckyPhrase` that is declared using `const`. Then, use `console.log()` to print the value of the `luckyPhrase` variable to the console.
 
 ## Variables
 A variable is a container in which we can store values for later retrieval.
