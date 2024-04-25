@@ -14,6 +14,17 @@
     - `string`
     - `boolean`
 - [ ] Use the `typeof` operator to check the data type of a value or variable's value
+- [ ] Explain the difference between:
+    - The `Number()` function
+    - The `String()` function
+    - The `Boolean()` function
+    - The `parseInt()` function
+- [ ] Understand the difference between:
+    - Adding `number`s with the `+` operator
+    - Subtracting `number`s with the `-` operator
+    - Multiplying `number`s with the `*` operator
+    - Dividing `number`s with the `/` operator
+    - Getting the remainder when dividing `number`s with the `%` operator
 - [ ] Concatenate strings with the `+` operator
 - [ ] Interpolate Variables and Other JavaScript Expressions Inside Template Literals
 - [ ] Explain the difference between the following equality operators:
@@ -26,7 +37,7 @@
     - greater than or equals (`>=`)
     - less than (`<`)
     - less than or equals (`<=`)
-- [ ] Review syntax differences between `if` / `else` statements, ternary expressions, and `switch` statements
+- [ ] Review syntax differences between `if`, `else if` and `else` statements, ternary operators / expressions, and `switch` statements
 - [ ] Explain the difference between the following logical operators:
     - `!` NOT
     - `&&` AND
@@ -50,30 +61,52 @@ In `index.html`, add the following line of code after line 7 to run the code in 
 <script type="text/javascript" src="./src/index.js"></script>
 ```
 
-For Mac users, run this command in the terminal to open the `index.html` file on your browser to run the application:
+At this point, there are 2 options to run your `index.js` JavaScript code:
+
+1. Run this command in the terminal to run your `index.js` JavaScript code using `node`:
+
+```sh
+node src/index.js
+```
+
+2. Open the `index.html` file on your browser to run the application:
+
+For Mac users, run this command in the terminal:
 
 ```sh
 open index.html
 ```
 
-For Windows users, run this command in the terminal to open the `index.html` file on your browser to run the application:
+For Windows users, run this command in the terminal:
 
 ```sh
 explorer.exe index.html
 ```
 
+For `Google Chrome` browsers:
+
+Once your browser loads the content from your `index.html` file, open `Developer Tools` in your browser and click the `Console` tab within `Developer Tools` to view any output from `console.log()` statements executed within your `index.js` file.
+
+For `Safari` browsers:
+
+Once your browser loads the content from your `index.html` file, open the `Web Inspector` in your browser and click the `Console` tab within the `Web Inspector` to view any output from `console.log()` statements executed within your `index.js` file.
+
 ## Deliverables
 
 Write your code in the `src/index.js` file.
 
-1. Initialize a variable named `greeting` using `const` and assign it the value of the `string` "Welcome to Flatburger!"
-2. Initialize two variables named `num1` and `num2` using `let` and assign the value of a `number` to each of the two variables.
-3. Initialize a variable named `sum` using `const` and assign it the value resulting from the sum of values of the variables `num1` and `num2`.
-4. Initialize a variable named `sumString` using `const` whose value should be a `string` that incorporates the values of `num1`, `num2`, and `sum` into the `string` using string concatenation or string interpolation. For example, if `num1` has the value of 7, `num2` has the value 14, and `sum` has the value of 21, the value of `sumString` should be `7 + 14 = 21`.
-5. Write an `if` statement that will check if the value of `num1` is strictly equal to `7` or `49`. If `num1` is strictly equal to `7` or `49`, use `console.log()` to print the following `string` to the console: "That's a lucky number!"
-6. Write an `else` clause after the `if` statement that will print "That's not a lucky number." to the console using `console.log()`. The code inside the `else` clause should run if the `if` statement's condition is not true.
-7. Write a ternary expression that will evaluate to the `string` "Lucky Sevens!" if the value of `num1` and `num2` are both strictly equal to `7`. Otherwise, the ternary expression should evaluate to the `string` "Better luck next time".
-
+1. Create a variable called `greeting` using `const` that is set to a `string` with the text "Welcome to Flatburger!"
+2. Create a variable called `num1` using `const` that is set to a `number` with the value of `7`.
+3. Create a variable called `num2` using `let` that is set to a `string` with the text "14". The number `14` should be inside of the "" marks so that the value will be a `string`, rather than a `number`.
+4. Use the `typeof` operator and `console.log()` to confirm that the data type of `num2` is `string`.
+5. Use the `Number()` function to convert the value of `num2` to a `number` and set `num2` to this converted value, so that `num2` will now have the value of the `number` `14` instead of the `string` with the text "14".
+6. Use the `typeof` operator and `console.log()` to confirm that the data type of `num2` is `number`.
+7. Create a variable called `sum` using `const` that is set to an equation that will add the variables `num1` and `num2`.
+8. Create a variable called `sumString` using `const` that is set to a `string` that incorporates the values of `num1`, `num2`, and `sum` into the `string` using string concatenation or string interpolation. For example, if `num1` has the value of 7, `num2` has the value 14, and `sum` has the value of 21, the value of `sumString` should be `7 + 14 = 21`.
+9. Write an `if` statement that will check if the value of `num1` is strictly equal to `7` or `49`. If `num1` is strictly equal to `7` or `49`, use `console.log()` to print the following `string` to the console: "That's a lucky number!"
+10. Write an `else if` statement after the `if` statement that will check if the value of `num1` is between `7` and `49`. For this case, `num1` should be greater than `7` and less than `49`. If `num1` is between `7` and `49`, use `console.log()` to print the following `string` to the console: "That might be a lucky number!". The code inside the `else if` statement should run if the `if` statement's condition is not true.
+11. Write an `else` clause after the `else if` statement that will print "That's not a lucky number." to the console using `console.log()`. The code inside the `else` clause should run if the `if` statement's condition and the `else if` statement's condition are not true.
+12. Write a ternary expression that will evaluate to the `string` "Lucky Sevens!" if the value of `num1` and `num2` are both strictly equal to `7`. Otherwise, the ternary expression should evaluate to the `string` "Better luck next time".
 
 ## Variables
 A variable is a container in which we can store values for later retrieval.
