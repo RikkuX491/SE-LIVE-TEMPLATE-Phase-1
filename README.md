@@ -93,19 +93,30 @@ Once your browser loads the content from your `index.html` file, open the `Web I
 
 ## Deliverables
 
-Write your code in the `src/index.js` file.
+Write your code in the `index.js` file that is in the `src` folder.
 
 1. Create a variable called `greeting` using `const` that is set to a `string` with the text "Welcome to Flatburger!"
+
 2. Create a variable called `num1` using `const` that is set to a `number` with the value of `7`.
+
 3. Create a variable called `num2` using `let` that is set to a `string` with the text "14". The number `14` should be inside of the "" marks so that the value will be a `string`, rather than a `number`.
+
 4. Use the `typeof` operator and `console.log()` to confirm that the data type of `num2` is `string`.
+
 5. Use the `Number()` function to convert the value of `num2` to a `number` and set `num2` to this converted value, so that `num2` will now have the value of the `number` `14` instead of the `string` with the text "14".
+
 6. Use the `typeof` operator and `console.log()` to confirm that the data type of `num2` is `number`.
+
 7. Create a variable called `sum` using `const` that is set to an equation that will add the variables `num1` and `num2`.
+
 8. Create a variable called `sumString` using `const` that is set to a `string` that incorporates the values of `num1`, `num2`, and `sum` into the `string` using string concatenation or string interpolation. For example, if `num1` has the value of 7, `num2` has the value 14, and `sum` has the value of 21, the value of `sumString` should be `7 + 14 = 21`.
+
 9. Write an `if` statement that will check if the value of `num1` is strictly equal to `7` or `49`. If `num1` is strictly equal to `7` or `49`, use `console.log()` to print the following `string` to the console: "That's a lucky number!"
+
 10. Write an `else if` statement after the `if` statement that will check if the value of `num1` is between `7` and `49`. For this case, `num1` should be greater than `7` and less than `49`. If `num1` is between `7` and `49`, use `console.log()` to print the following `string` to the console: "That might be a lucky number!". The code inside the `else if` statement should run if the `if` statement's condition is not true.
+
 11. Write an `else` clause after the `else if` statement that will print "That's not a lucky number." to the console using `console.log()`. The code inside the `else` clause should run if the `if` statement's condition and the `else if` statement's condition are not true.
+
 12. Write a ternary expression that will evaluate to the `string` "Lucky Sevens!" if the value of `num1` and `num2` are both strictly equal to `7`. Otherwise, the ternary expression should evaluate to the `string` "Better luck next time". Store the result of the ternary expression into a variable called `luckyPhrase` that is declared using `const`. Then, use `console.log()` to print the value of the `luckyPhrase` variable to the console.
 
 ## Variables
