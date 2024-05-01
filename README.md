@@ -11,16 +11,17 @@
 - [ ] Understand what it means that functions are first-class objects
 - [ ] Explain what a higher-order function is
 
-
 ## Deliverables
 
 Write your code in the `index.js` file that is in the `src` folder.
 
 1. Create a function named `flatburgerGreeting()` that prints the `string` "Welcome to Flatburger!" to the console using `console.log()`
-2. Create a function named `printGreeting()` that has one parameter named `greeting`. The function should print the value of the parameter `greeting` to the console using `console.log()`.
-3. Create an arrow function named `getSum()` that has two parameters `num1` and `num2`. The `return` value of this function should be the value resulting from the sum of values of the parameters `num1` and `num2`.
-4. Create a function named `getSumString()` that has three parameters: A parameter named `sum` whose value should be a callback function, and two parameters `num1` and `num2` whose values should be `number`s. The `return` value of this function should be a `string` that incorporates the values of `num1`, `num2`, and the `return` value of `sum()` into the string using string concatenation or string interpolation. For example, if `num1` has the value of `7`, `num2` has the value `14`, and the `return` value of `sum()` has the value of `21`, the `return` value of `getSumString()` should be `7 + 14 = 21`.
 
+2. Create a function named `printGreeting()` that has one parameter named `greeting`. The function should print the value of the parameter `greeting` to the console using `console.log()`.
+
+3. Create an arrow function named `getSum()` that has two parameters `num1` and `num2`. The `return` value of this function should be the value resulting from the sum of values of the parameters `num1` and `num2`.
+
+4. Create a function named `getSumString()` that has three parameters: A parameter named `sum` whose value should be a callback function, and two parameters `num1` and `num2` whose values should be `number`s. The `return` value of this function should be a `string` that incorporates the values of `num1`, `num2`, and the `return` value of `sum()` into the string using string concatenation or string interpolation. For example, if `num1` has the value of `7`, `num2` has the value `14`, and the `return` value of `sum()` has the value of `21`, the `return` value of `getSumString()` should be `7 + 14 = 21`.
 
 ## Functions
 Functions are like a little program. They consist of a set of statements/tasks and return a value or undefined. 
