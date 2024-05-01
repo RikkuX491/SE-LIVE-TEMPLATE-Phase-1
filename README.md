@@ -11,6 +11,46 @@
 - [ ] Understand what it means that functions are first-class objects
 - [ ] Explain what a higher-order function is
 
+## Setup
+
+Make sure that you are inside of the directory (folder) with the `index.html` file and the `src` directory (folder).
+
+You can run the `ls` command in the terminal to view the files and directories (folders) that are within your current directory (folder):
+
+```sh
+ls
+```
+
+There are 2 options to run your `index.js` JavaScript code:
+
+1. Run this command in the terminal to run your `index.js` JavaScript code using `node`:
+
+```sh
+node src/index.js
+```
+
+2. Open the `index.html` file on your browser to run the application:
+
+For Mac users, run this command in the terminal:
+
+```sh
+open index.html
+```
+
+For Windows users, run this command in the terminal:
+
+```sh
+explorer.exe index.html
+```
+
+For `Google Chrome` browsers:
+
+Once your browser loads the content from your `index.html` file, open `Developer Tools` in your browser and click the `Console` tab within `Developer Tools` to view any output from `console.log()` statements executed within your `index.js` file.
+
+For `Safari` browsers:
+
+Once your browser loads the content from your `index.html` file, open the `Web Inspector` in your browser and click the `Console` tab within the `Web Inspector` to view any output from `console.log()` statements executed within your `index.js` file.
+
 ## Deliverables
 
 Write your code in the `index.js` file that is in the `src` folder.
