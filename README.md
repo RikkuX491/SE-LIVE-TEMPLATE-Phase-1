@@ -1,5 +1,6 @@
 # Lecture # 2 - Functions & Scope
-## SWBAT
+
+## Lecture Topics
 - [ ] Describe what functions are and their central importance in JS
 - [ ] Understand how to declare and call functions
 - [ ] Review syntax differences between regular functions and arrow functions
