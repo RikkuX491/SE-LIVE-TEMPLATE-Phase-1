@@ -14,9 +14,7 @@
 
 ## Deliverables
 
-We've been asked to build a website for a new restaurant, Flatburger, that displays a menu of food served at the restaurant.
-
-Today we will learn about Functions and Scope to accomplish some tasks related to displaying data on the website.
+Write your code in the `index.js` file that is in the `src` folder.
 
 1. Create a function named `flatburgerGreeting()` that prints the `string` "Welcome to Flatburger!" to the console using `console.log()`
 2. Create a function named `printGreeting()` that has one parameter named `greeting`. The function should print the value of the parameter `greeting` to the console using `console.log()`.
